@@ -27,7 +27,7 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 
 - [Lauwerecht 55, Jan is De Man](https://indebuurt.nl/utrecht/nieuws/worden-we-vrolijk-van-utrecht-heeft-er-een-supertoffe-muurschildering-bij~86664/)
 
-- [Ducdalf met Schepen (1978) / Ducdalf with Ships (1978), Anne P. boer, in the Adelaarstraat] (https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/schepen-met-ducdalf)
+- [Ducdalf met Schepen (1978)/Ducdalf with Ships (1978), Anne P. boer in the Adelaarstraat](https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/schepen-met-ducdalf)
 
 - [Het Balkon (1979)/The Balcony (1979) in the Adelaarstraat, Hans van der Plas](https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/drieluik)
 
@@ -35,4 +35,22 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 
 - [Nijntje/Miffy](https://www.youtube.com/watch?v=oiUu6kLGVMA)
 
+- [Amsterdamsestraatweg367](https://girlswanderlust.com/exploring-street-art-in-utrecht/)
+
+- [Amsterdamse straatweg, Jan is de Man](https://girlswanderlust.com/exploring-street-art-in-utrecht/)
+
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
