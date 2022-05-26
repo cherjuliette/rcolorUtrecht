@@ -30,3 +30,9 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 - [Ducdalf met Schepen (1978) / Ducdalf with Ships (1978), Anne P. boer, in the Adelaarstraat] (https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/schepen-met-ducdalf)
 
 - [Het Balkon (1979)/The Balcony (1979) in the Adelaarstraat, Hans van der Plas](https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/drieluik)
+
+- [Celestial Teapot, Lily van der Stokker](https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/celestial-teapot)
+
+- [Nijntje/Miffy](https://www.youtube.com/watch?v=oiUu6kLGVMA)
+
+- 
