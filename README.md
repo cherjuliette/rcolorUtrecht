@@ -39,18 +39,14 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 
 - [Amsterdamse straatweg, Jan is de Man](https://girlswanderlust.com/exploring-street-art-in-utrecht/)
 
-- 
+- [Otterstraat 116, De Verfdokter](https://www.oud-utrecht.nl/wat-doen-wij/publicaties/inspirerend-oud-utrecht/666-route-langs-muurschilderingen)
 
+-[Van Alphenplein, De Verfdokter](https://www.nieuws030.nl/nieuws/de-verfdokter-is-goed-bezig/)
 
+- [Gansstraat 64, De Strakkehand](https://www.oud-utrecht.nl/wat-doen-wij/publicaties/inspirerend-oud-utrecht/666-route-langs-muurschilderingen)
 
+- [University Utrecht, Domplein](https://www.youtube.com/watch?v=QmkkKRwrqZk)
 
+- [Berlijnplein](https://www.duic.nl/opmerkelijk/bijzondere-3d-vloerschildering-van-bekende-straatkunstenaar-leon-keer-bij-berlijnplein/)
 
-
-
-
-
-
-
-
-
-
+- [Bizetlaan, De Strakke Hand](https://www.duic.nl/algemeen/muurschildering-geeft-doorkijkje-naar-historisch-den-hommel/)
