@@ -41,7 +41,7 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 
 - [Otterstraat 116, De Verfdokter](https://www.oud-utrecht.nl/wat-doen-wij/publicaties/inspirerend-oud-utrecht/666-route-langs-muurschilderingen)
 
--[Van Alphenplein, De Verfdokter](https://www.nieuws030.nl/nieuws/de-verfdokter-is-goed-bezig/)
+- [Van Alphenplein, De Verfdokter](https://www.nieuws030.nl/nieuws/de-verfdokter-is-goed-bezig/)
 
 - [Gansstraat 64, De Strakkehand](https://www.oud-utrecht.nl/wat-doen-wij/publicaties/inspirerend-oud-utrecht/666-route-langs-muurschilderingen)
 
