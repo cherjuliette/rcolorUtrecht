@@ -1,12 +1,14 @@
-#' ################################################
-#'           Utrecht Art Color Palettes           #
-#' ################################################
-#' 
 #' Color palettes made from street art and notable locations 
 #' in Dutch city Utrecht.
 #' 
+#' 
 #' Inspired by the Dutch Masters color palette 
 #' by [Edwin Thoen](https://github.com/EdwinTh/dutchmasters)
+#' 
+#' 
+#' ################################################
+#'           Utrecht Art Color Palettes           #
+#' ################################################
 #' 
 #' 
 #' Palettes included in this package:
@@ -17,36 +19,57 @@
 #' 
 #' De Walvis/The Wale at the Tivoli Vredenburg
 #' 
-#' Electricity boxes by Lisa Mantel. [IG:patatjes4life](https://www.instagram.com/patatjes4life/?hl=en)
+#' Electricity boxes by Lisa Mantel. [IG: patatjes4life]
 #'  
-#' 3D Organs by [Leon Keer](https://www.instagram.com/leonkeer/?hl=en)
+#' 3D Organs by Leon Keer
 #' 
 #' Nijntje by Dick Bruna
 #' 
-#' Groceries by [Jan Is De Man](https://janisdeman.com/)
+#' Groceries by Jan Is De Man
 #' 
-#' Derk by [Jan Is De Man](https://janisdeman.com/) and [Derk Wessels](https://www.wijdedoelen.nl/grafiek-kunstenaars/derk-wessels/)
+#' Derk by Jan Is De Man and Derk Wessels
 #' 
-#' Glimpse Into The Past by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' Glimpse Into The Past by De Strakke Hand
 #' 
-#' Het Doppler Effect/The Doppler Effect by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' Het Doppler Effect/The Doppler Effect by De Strakke Hand
 #' 
-#' Gansstraat 64 by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' Gansstraat 64 by De Strakke Hand
 #' 
-#' Vogelenbuurt/Bird Neighbourhood by [Jan Is De Man](https://janisdeman.com/)
+#' Vogelenbuurt/Bird Neighbourhood by Jan Is De Man
 #' 
-#' De Wonderen/The Wonders by [Boukje Lootsma](http://www.muurschilderingenplus.nl/sprookjes-van-de-21ste-eeuw-muurschilderingen/)
+#' De Wonderen/The Wonders by Boukje Lootsma
 #' 
-#' Treinstel Mat '36/Train set '36 by De Verfdokter [IG: @verfdokter](https://www.instagram.com/accounts/login/?next=/verfdokter/)
+#' Treinstel Mat '36/Train set '36 by De Verfdokter [IG: @verfdokter]
 #' 
-#' Boekenkast/Bookcase by [Jan Is De Man](https://janisdeman.com/boekenkast/)
+#' Boekenkast/Bookcase by Jan Is De Man
 #' 
-#' Dichterswijk/Poets District by Munir De Vries. [IG: @munir_de_vries](https://www.instagram.com/munir_de_vries/?hl=en)
+#' Dichterswijk/Poets District by Munir De Vries. [IG: munir_de_vries]
 #' 
 #' Ducdalf Met Schepen/Ships With Ducdalf by Anne P. Boer
 #' 
-#' Caroline Bleeker by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' Caroline Bleeker by De Strakke Hand
 #' 
+#' 
+#' @examples 
+#' # devtools::install_github("cherjuliette/rcolorUtrecht")
+#' 
+#' 
+#' @export
+rcolorUtrecht <- list(
+  ## Hoeschool Utrecht (University of Applied Sciences)
+  ## https://www.internationalhu.com/locations
+  
+  
+  
+  
+  
+  
+)
+
+
+
+
+
 
 ###################################################
 #                 INSTRUCTIONS                    #
@@ -55,40 +78,6 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-
-
-# @examples
-# devtools::install_github("cherjuliette/rcolormiffy")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
