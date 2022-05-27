@@ -1,0 +1,241 @@
+---
+title: "Untitled"
+author: "Cherin-Juliette"
+date: '2022-05-27'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br>
+
+#### **Electricity boxes in the city center**
+Initiative of the city ambassador group Thirty030. Electricity boxes around the city have been transformed by 18 artists.
+```{r}
+binnenstad_patatjes4life_2021 <- c("#fc84e8", 
+                                   "#be32bb", 
+                                   "#c999bf", 
+                                   "#106dc2", 
+                                   "#129bfe", 
+                                   "#4e74a7", 
+                                   "#fcab4d", 
+                                   "#413b43", 
+                                   "#d6c840", 
+                                   "#33783a", 
+                                   "#44553a", 
+                                   "#457666")
+```
+
+#### **Phase contrast microscope mural in the Stroweg**
+Women physicist and maker of the phase contrast microscope was an alumni of the Utrecht University.
+```{r}
+strosteeg_destrakkehand_2021 <- c("#182c4b", 
+                                  "#091527", 
+                                  "#274d78", 
+                                  "#333f56", 
+                                  "#7f92ad", 
+                                  "#5a2f2b", 
+                                  "#7b4003", 
+                                  "#7d4e0d", 
+                                  "#8da17e", 
+                                  "#34512a")
+```
+
+#### **Groceries mural above the Albert Heijn on Amsterdamsestraatweg 367**
+```{r}
+amsterdamsestraatweg367_janisdeman_2021 <- c("#2f2332", 
+                                             "#594476", 
+                                             "#871a2d", 
+                                             "#c83a24", 
+                                             "#eb813a", 
+                                             "#29432a", 
+                                             "#7c923a", 
+                                             "#596365", 
+                                             "#fddd29")
+```
+
+#### **Rainbow crosswalk at the Uithof, in front of the University of Applied Sciences**
+```{r}
+uithof_hu_2021 <- c("ff0000",
+                    "#1a9fd9",
+                    "ffa500", 
+                    "ffff00", 
+                    "008000", 
+                    "0000ff", 
+                    "4b0082", 
+                    "4b0082", 
+                    "ee82ee", 
+                    "cc99c9", 
+                    "9ee09e", 
+                    "#84674d", 
+                    "#1870d5")
+```
+
+#### **Vogelenbuurt mural by Jan is de Man**
+```{r}
+vogelenbuurt_janisdeman_2020 <- c("#016258", 
+                                  "#008f89", 
+                                  "#51bfa7", 
+                                  "#41bbb0", 
+                                  "#159ec6", 
+                                  "#06507d", 
+                                  "#1b1f3c", 
+                                  "#be8b4e", 
+                                  "#d15a3a", 
+                                  "#043229", 
+                                  "#5f1944")
+```
+
+#### **Geese mural on the Gansstraat 64 by De Strakke Hand**
+```{r}
+gansstraat64_destrakkehand_2020 <- c("8cd3ff", 
+                                     "#009dff", 
+                                     "#454147", 
+                                     "#7d0e20", 
+                                     "#393d20", 
+                                     "#7f883c", 
+                                     "#413014", 
+                                     "f9c70c")
+```
+
+#### **3D street art at Berlijnplein by Leon Keer**
+```{r}
+berlijnplein_leonkeer_2020 <- c("#91030e", 
+                                "#d83a55", 
+                                "#a55d6d", 
+                                "#c47b89", 
+                                "#745563", 
+                                "#5a3659", 
+                                "#2e2c2b", 
+                                "#48735a", 
+                                "#6a9098", 
+                                "#976557")
+```
+
+#### **Mural on the Ibis Hotel on Bizetlaan by De Strakke Hand**
+```{r}
+burgermeesterreigerstraat_destrakkehand_2019 <- c("603c14",
+                                                  "9c2706",
+                                                  "d45b12",
+                                                  "#ac4649",
+                                                  "f4af28",
+                                                  "c17f29",
+                                                  "#185aa0",
+                                                  "b29804",
+                                                  "bfe6ff",
+                                                  "acdf87",
+                                                  "1a8693")
+```
+
+#### **The Wale at the Tivolivredenburg by Studio KCA**
+```{r}
+tivolivredenburg_studiokca_2018 <- c("#021c95", 
+                                     "#2078c4", 
+                                     "#178ec7", 
+                                     "#44a9bb", 
+                                     "#249780", 
+                                     "#6a9a8a", 
+                                     "#efa548", 
+                                     "#7b5d53")
+```
+
+#### **The Derk on Lauwerecht 55 by Derk Wessels and Jan is de Man**
+```{r}
+lauwerecht55_derkwessels_2018 <- c("#673042", 
+                                   "#8a2746", 
+                                   "#e7788a", 
+                                   "#d88a98", 
+                                   "#141d02", 
+                                   "#59644b", 
+                                   "#b1bd4d", 
+                                   "#1a2f4a", 
+                                   "#3094b2", 
+                                   "#2f1f0d", 
+                                   "#393842")
+```
+
+#### **Miffy by Dick Bruna**
+```{r}
+mariaplaats_destrakkehand_2017 <- c("#1B549A",
+                                    "#30702F",
+                                    "#FAC700",
+                                    "#ED4C06",
+                                    "#DD3E0E",
+                                    "#914D23",
+                                    "#DADADA",
+                                    "#202221")
+```
+
+#### **Dichterswijk by Munir de Vries**
+```{r}
+dichterswijk_munirdevries_2017 <- c("#0c454b",
+                                    "#13755e",
+                                    "#4ebf93",
+                                    "#6b181a",
+                                    "#ac2b1c",
+                                    "#fd5e14",
+                                    "#edc67c",
+                                    "#3b2046",
+                                    "#683e68",
+                                    "#733d49",
+                                    "#97554f")
+```
+
+#### **Trains at Meidoornstraat by De Verfdokter**
+```{r}
+meidoornstraat_verfdokter_2015 <- c("#1b3318",
+                                    "#29533e",
+                                    "#3f7d2e",
+                                    "#898327",
+                                    "#c8b862",
+                                    "#99262c",
+                                    "#f65066",
+                                    "#1662a5",
+                                    "#3c7cad",
+                                    "#58a4d2")
+```
+
+#### **De Wonderen/The Wonders on Langenoord by Boukje Lootsma**
+```{r}
+langenoord_boukjelootsma_2014 <- c("#0e120c",
+                                    "#213526",
+                                    "#505231",
+                                    "#524434",
+                                    "#b05c65",
+                                    "#d88e99",
+                                    "#bc8eb6",
+                                    "#bb8cc3",
+                                    "#9b6c61",
+                                    "#727e8f",
+                                    "#626514",
+                                    "#455c17",
+                                    "#daae52")
+```
+
+#### **Ducdalf Met Schepen/ Ships with Ducdalf on Adelaarsstraat by Anne P. Boer**
+```{r}
+adelaarsstraat_anneboer_1978 <- c("#c91f40",
+                                  "#8f475b",
+                                  "#523e32",
+                                  "#7d3c3a",
+                                  "#994745",
+                                  "#c1a2a7",
+                                  "#e26a3b",
+                                  "#84658b",
+                                  "#885f80",
+                                  "#9484a1",
+                                  "#cc9f5c",
+                                  "#70a3b7",
+                                  "#97c7d6")
+```
+
+#### **Utrecht University on the Domplein**
+```{r}
+domplein_uu <- c("#fac902",
+                 "#b70a28",
+                 "#030203",
+                 "#653a15",
+                 "#303810",
+                 "#485c08")
+```
+
