@@ -1,7 +1,52 @@
-# Miffy color palette
-
-## Color palettes derived from the Dutch modernist artist Dick Bruna
-## which he had used in the making of Miffy books.
+#' ################################################
+#'           Utrecht Art Color Palettes           #
+#' ################################################
+#' 
+#' Color palettes made from street art and notable locations 
+#' in Dutch city Utrecht.
+#' 
+#' Inspired by the Dutch Masters color palette 
+#' by [Edwin Thoen](https://github.com/EdwinTh/dutchmasters)
+#' 
+#' 
+#' Palettes included in this package:
+#' 
+#' Hogeschool Utrecht (University of Applied Sciences)
+#' 
+#' Universiteit Utrecht (Utrecht University) 
+#' 
+#' De Walvis/The Wale at the Tivoli Vredenburg
+#' 
+#' Electricity boxes by Lisa Mantel. [IG:patatjes4life](https://www.instagram.com/patatjes4life/?hl=en)
+#'  
+#' 3D Organs by [Leon Keer](https://www.instagram.com/leonkeer/?hl=en)
+#' 
+#' Nijntje by Dick Bruna
+#' 
+#' Groceries by [Jan Is De Man](https://janisdeman.com/)
+#' 
+#' Derk by [Jan Is De Man](https://janisdeman.com/) and [Derk Wessels](https://www.wijdedoelen.nl/grafiek-kunstenaars/derk-wessels/)
+#' 
+#' Glimpse Into The Past by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' 
+#' Het Doppler Effect/The Doppler Effect by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' 
+#' Gansstraat 64 by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' 
+#' Vogelenbuurt/Bird Neighbourhood by [Jan Is De Man](https://janisdeman.com/)
+#' 
+#' De Wonderen/The Wonders by [Boukje Lootsma](http://www.muurschilderingenplus.nl/sprookjes-van-de-21ste-eeuw-muurschilderingen/)
+#' 
+#' Treinstel Mat '36/Train set '36 by De Verfdokter [IG: @verfdokter](https://www.instagram.com/accounts/login/?next=/verfdokter/)
+#' 
+#' Boekenkast/Bookcase by [Jan Is De Man](https://janisdeman.com/boekenkast/)
+#' 
+#' Dichterswijk/Poets District by Munir De Vries. [IG: @munir_de_vries](https://www.instagram.com/munir_de_vries/?hl=en)
+#' 
+#' Ducdalf Met Schepen/Ships With Ducdalf by Anne P. Boer
+#' 
+#' Caroline Bleeker by [De Strakke Hand](https://www.destrakkehand.nl/)
+#' 
 
 ###################################################
 #                 INSTRUCTIONS                    #
@@ -18,11 +63,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##################################################
 #                  COLOR CODES                   #
 ##################################################
 
-## All colors used for the Miffy drawings
+## Miffy 
 ## Source: Dick Bruna
 miffy = c(
           "blue"    = "#1B549A",
@@ -41,8 +118,9 @@ miffy = c(
 ## Source:
 uu = c(
        "yellow",
-       "darkbrown",
-       "red"
+       "black",
+       "red",
+       "white_gray"
        )
 
 
@@ -54,6 +132,25 @@ hu = c(
        "red",
        "white_gray"
        )
+
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
