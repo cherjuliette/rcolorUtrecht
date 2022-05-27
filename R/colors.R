@@ -3,7 +3,7 @@
 #' 
 #' 
 #' Inspired by the Dutch Masters color palette 
-#' by [Edwin Thoen](https://github.com/EdwinTh/dutchmasters)
+#' by Edwin Thoen (https://github.com/EdwinTh/dutchmasters)
 #' 
 #' 
 #' ################################################
@@ -56,7 +56,7 @@
 #' 
 #' @export
 rcolorUtrecht <- list(
-  ## Hoeschool Utrecht (University of Applied Sciences)
+  ## Hogeschool Utrecht (University of Applied Sciences)
   ## https://www.internationalhu.com/locations
   
   

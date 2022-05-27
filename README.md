@@ -20,8 +20,6 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 ## Sources
 - [Hogeschool Utrecht/Institute for Life Sciences](https://www.internationalhu.com/campus-utrecht-science-park)
 
-- [Thirty030, Nienke Vletter](https://www.ad.nl/utrecht/saaie-elektriciteitskastjes-niet-in-utrecht-achttien-kunstenaars-beschilderden-ze-en-dat-ziet-er-zo-uit~ad94d210/)
-
 - [Thirty030, Patatjes4Life](https://thirty030.nl/vankastjenaarcanvasje-3/)
 
 - [De Wonderen/The Wonders in Pijlsweerd, Boukje Lootsma](http://www.muurschilderingenplus.nl/sprookjes-van-de-21ste-eeuw-muurschilderingen/#lightbox[auto_group1]/8/)
@@ -55,3 +53,5 @@ The Dutch city Utrecht is one of the most beautiful places in the world, and a b
 - [Bizetlaan, De Strakke Hand](https://www.duic.nl/algemeen/muurschildering-geeft-doorkijkje-naar-historisch-den-hommel/)
 
 - [De Walvis/The Wale](https://www.uu.nl/organisatie/faculteit-recht-economie-bestuur-en-organisatie/samenwerking-en-samenleving/skyscraper)
+
+- [Fasecontrastmicroscoop/Phase contrast microscopy on Stroweg by De Strakke Hans](https://www.duic.nl/algemeen/utrecht-heeft-met-deze-nieuwe-muurschildering-in-de-strosteeg-alweer-vierde-muurformule/)
