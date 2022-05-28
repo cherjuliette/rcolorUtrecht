@@ -58,297 +58,232 @@
 rcolorUtrecht <- list(
   ## Hogeschool Utrecht (University of Applied Sciences)
   ## https://www.internationalhu.com/locations
+  hu = c("red"      = "ff0000",
+         "blue1"    = "#1a9fd9",
+         "orange"   = "ffa500", 
+         "yellow"   = "ffff00", 
+         "green1"   = "008000", 
+         "blue2"    = "0000ff", 
+         "purple"   = "4b0082",
+         "pink1"    = "ee82ee", 
+         "pink2"    = "cc99c9", 
+         "green2"   = "9ee09e", 
+         "brown"    = "#84674d"),
+  
+  
+  ## Phase Contraction Microscope (De Strakke Hand, 2021)
+  ## https://www.duic.nl/algemeen/utrecht-heeft-met-deze-nieuwe-muurschildering-in-de-strosteeg-alweer-vierde-muurformule/
+  
+  microscope = c("blue1"      = "#182c4b",
+                 "navyblue"   = "#091527",
+                 "blue2"      = "#274d78", 
+                 "bluegrey"   = "#333f56",
+                 "brown1"     = "#7f92ad", 
+                 "brown2"     = "#5a2f2b",
+                 "brown3"     = "#7b4003",
+                 "yellow"     = "#7d4e0d",
+                 "green1"     = "#8da17e",
+                 "green2"     = "#34512a"),
+  
+  
+  ## Electricity box (Patatjes4Life, 2021)
+  ## https://thirty030.nl/vankastjenaarcanvasje-3/
+  patatjes4life = c("pink1"    = "#fc84e8",
+                    "blue1"    = "#be32bb",
+                    "pink2"    = "#c999bf", 
+                    "blue2"    = "#106dc2", 
+                    "yellow"   = "#129bfe", 
+                    "blue3"    = "#4e74a7", 
+                    "orange"   = "#fcab4d", 
+                    "brown1"   = "#413b43", 
+                    "brown2"   = "#d6c840", 
+                    "green1"   = "#33783a", 
+                    "green2"   = "#44553a",
+                    "green3"   = "#457666"),
+  
+  
+  ## Groceries on top of the Albert Heijn (JanIsDeMan, 2021)
+  ## https://janisdeman.com/portfolio/albert-heijn-left/
+  ah = c("berries"    = "#2f2332", 
+         "grapes"     = "#594476", 
+         "gourgette"  = "#871a2d", 
+         "egg"        = "#c83a24", 
+         "manderin"   = "#eb813a", 
+         "olive"      = "#29432a", 
+         "salad"      = "#7c923a", 
+         "pan"        = "#596365", 
+         "juice"      = "#fddd29"),
+  
+  
+  ## Vogelenbuurt (JanIsDeMan, 2020)
+  ## https://www.travellust.nl/street-art-in-utrecht/
+  vogelenbuurt = c("turquoise"       = "#016258", 
+                   "lightturquoise"  = "#008f89",
+                   "orange"          = "#51bfa7", 
+                   "magenta"         = "#41bbb0", 
+                   "blue1"           = "#159ec6", 
+                   "blue2"           = "#06507d", 
+                   "blue3"           = "#1b1f3c", 
+                   "beige"           = "#be8b4e", 
+                   "yellow"          = "#d15a3a", 
+                   "brown"           = "#043229",
+                   "copper"          = "#5f1944"),
+  
+  
+  ## Geese at the Gansstraat 64 (De Strakke Hand, 2020)
+  ## https://www.oud-utrecht.nl/nieuws/666-route-langs-muurschilderingen
+  geese = c("blue1"           = "8cd3ff",
+            "blue2"           = "#009dff", 
+            "brown1(earth)"   = "#454147", 
+            "red(flowers)"    = "#7d0e20", 
+            "green1(leaves)"  = "#393d20", 
+            "green2(leaves)"  = "#7f883c", 
+            "brown2(earth)"   = "#413014",
+            "yellow(flowers)" ="f9c70c"),
+  
+  
+  ## 3D street art at Berlijnplein (Leon Keer, 2020)
+  ## https://www.duic.nl/opmerkelijk/bijzondere-3d-vloerschildering-van-bekende-straatkunstenaar-leon-keer-bij-berlijnplein/
+  organs = c("red1"      = "#91030e",
+         "red2"          = "#d83a55", 
+         "pink1"         = "#a55d6d", 
+         "pink2"         = "#c47b89", 
+         "pink3"         = "#745563", 
+         "green"         = "#5a3659", 
+         "brown1(earth)" = "#2e2c2b",
+         "blue1(sky)"    = "#48735a", 
+         "blue2(sky)"    = "#6a9098", 
+         "brown2(earth)" = "#976557"),
+  
+  
+  ## Glimpse Of The Past (De Strakke Hand, 2019)
+  ## https://www.duic.nl/algemeen/muurschildering-geeft-doorkijkje-naar-historisch-den-hommel/
+  ibis_hotel = c("brown(bridge)"    = "603c14",
+                 "red(sign)"        = "9c2706",
+                 "orange(bridge)"   = "d45b12",
+                 "pink(person)"     = "#ac4649",
+                 "yellow(leaves)"   = "f4af28",
+                 "orange(bridge)"   = "c17f29",
+                 "blue1(sky)"       = "#185aa0",
+                 "blue(water)"      = "b29804",
+                 "blue2(sky)"       = "bfe6ff",
+                 "green(grass)"     = "acdf87",
+                 "green(trees)"     = "1a8693"),
   
   
   
+  ## The Wale (Studio KCA, 2018)
+  ## https://www.duic.nl/algemeen/plastic-walvis-vertrekt-nu-echt-uit-utrecht/
+  the_wale = c("blue1"     = "#021c95", 
+               "blue2"     = "#2078c4", 
+               "blue3"     = "#178ec7", 
+               "blue4"     = "#44a9bb", 
+               "blue5"     = "#249780", 
+               "blue6"     = "#6a9a8a", 
+               "blue7"     = "#efa548", 
+               "blue7"     = "#7b5d53"),
+  
+  
+  ## Derk (Derk Wessels and JanIsDeMan, 2018)
+  ## https://www.katholiekutrecht.nl/tag/derk-wessels/
+  derk_wessels = c("pink1(bird)"        = "#673042", 
+                   "lightpink(bird)"    = "#8a2746", 
+                   "pink2(tail)"        = "#e7788a",
+                   "green1(leaves)"     = "#d88a98",
+                   "green2(leaves)"     = "#141d02",
+                   "blue(background)"   = "#59644b", 
+                   "green3(leaves)"     = "#b1bd4d", 
+                   "blue2(background)"  = "#1a2f4a", 
+                   "blue3(background)"  = "#3094b2", 
+                   "brown(roof)"        = "#2f1f0d",
+                   "grey(windows)"      = "#393842"),
   
   
   
+  ## Miffy (Dick Bruna)
+  ## https://www.nijntje.nl/over-dick-bruna
+  miffy = c("blue"        = "#1B549A",
+            "red"         = "#30702F",
+            "yellow"      = "#FAC700",
+            "orange1"     = "#ED4C06",
+            "green"       = "#DD3E0E",
+            "brown"       = "#914D23",
+            "whitegrey"   = "#DADADA",
+            "greyblack"   = "#202221"),
+  
+  
+  
+  ## Poet District (Munir de Vries, 2017)
+  ## http://munirdevries.com/
+  poet_district =  c("blue1"           = "#0c454b",
+                     "turquoise"       = "#13755e",
+                     "lightturquoise"  = "#4ebf93",
+                     "red"             = "#6b181a",
+                     "orangered"       = "#ac2b1c",
+                     "orange"          = "#fd5e14",
+                     "peach"           = "#edc67c",
+                     "purple"          = "#3b2046",
+                     "purplepink"      = "#683e68",
+                     "copper"          = "#733d49",
+                     "brown"           = "#97554f"),
+  
+  
+  
+  ## Train Station at Meidoornstraat (De Verfdokter, 2015)
+  ## https://www.verfdokter.com/
+  trains = c("green1(trees)"    = "#1b3318",
+             "green2(trees)"    = "#29533e",
+             "red(board)"       = "#3f7d2e",
+             "yellow(flowers)"  = "#898327",
+             "beige(hedge)"     = "#c8b862",
+             "brown(hedge)"     = "#99262c",
+             "red(lights)"      = "#f65066",
+             "blue1(sky)"       = "#1662a5",
+             "blue2(sky)"       = "#3c7cad",
+             "blue3(sky)"       = "#58a4d2"),
+  
+  
+  
+  ## De Wonderen/The Wonders at Langenoord (Boukje Lootsma)
+  ## http://www.noordsepark.nl/agenda/officiele-opening-muurschildering-de-wonderen/
+  the_wonders = c("green1(shrubs)"      = "#0e120c",
+                  "green2(shrubs)"      = "#213526",
+                  "green3(hedges)"      = "#505231",
+                  "brown(bricks)"       = "#524434",
+                  "pink1(flowers)"      = "#b05c65",
+                  "pink2(sign)"         = "#d88e99",
+                  "pink3(flowers)"      = "#bc8eb6",
+                  "purple(flowers)"     = "#bb8cc3",
+                  "green4(tree)"        = "#9b6c61",
+                  "grey(valcon)"        = "#727e8f",
+                  "yellowgreen(hedges)" = "#626514",
+                  "blue1(flowers)"      = "#455c17",
+                  "yellow(flowers)"     = "#daae52"),
+  
+  
+  ## Ducdalf Met Schepen/ Ships with Ducdalf on Adelaarsstraat (Anne P. Boer, 1978)
+  ## https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/schepen-met-ducdalf
+  ships_with_ducdalf = c("red1(background)"    = "#c91f40",
+                         "blue1(letters)"      = "#8f475b",
+                         "brown(roof)"         = "#523e32",
+                         "red2(ships)"         = "#7d3c3a",
+                         "ships"               = "#994745",
+                         "purple1(background)" = "#c1a2a7",
+                         "orange(background)"  = "#e26a3b",
+                         "pink(background)"    = "#84658b",
+                         "purple2(background)" = "#885f80",
+                         "bluegreen1(water)"   = "#9484a1",
+                         "yellow(bricks)"      = "#cc9f5c",
+                         "blue2(water)"        = "#70a3b7",
+                         "blue3(water)"        = "#97c7d6"),
+  
+  
+  ## Utrecht University
+  ## https://www.uu.nl/en/organisation/corporate-identity/brand-policy/colour
+  uu = c("yellow"           = "#fac902",
+         "red"              = "#b70a28",
+         "black"            = "#030203",
+         "brown(building)"  = "#653a15",
+         "green1(trees)"    = "#303810",
+         "green2(trees)"    = "#485c08")
 )
-
-
-
-
-
-
-###################################################
-#                 INSTRUCTIONS                    #
-###################################################
-
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
-
-
-
-
-
-##################################################
-#                  COLOR CODES                   #
-##################################################
-
-## Miffy 
-## Source: Dick Bruna
-miffy = c(
-          "blue"    = "#1B549A",
-          "green"   = "#30702F",
-          "yellow"  = "#FAC700",
-          "orange"  = "#ED4C06",
-          "red"     = "#DD3E0E",
-          "brown"   = "#914D23",
-          "white"   = "#DADADA",
-          "black"   = "#202221"
-          )
-
-
-
-## Utrecht University
-## Source:
-uu = c(
-       "yellow",
-       "black",
-       "red",
-       "white_gray"
-       )
-
-
-
-## Utrecht College (University of Applied Sciences)
-## Source:
-hu = c(
-       "blue",
-       "red",
-       "white_gray"
-       )
-
-
-
-## 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# This function takes a character or integer index
-miffy <- function(index = NULL, named = FALSE) {
-  # Default to everything
-  if (is.null(index)) {
-    index <- names(miffy_pal)
-  }
-
-  # This works with integer or character values
-  return_value <- miffy_pal[index]
-
-  if (!named) {
-    names(return_value) <- NULL
-  }
-
-  return(return_value)
-}
-
-# Another convenience function
-miffy_col <- function() {
-  names(miffy_pal)
-}
-
-
-
-# Example 1 ----
-# Make a bad plot with these colours
-ggplot(mpg) +
-  geom_point(aes(x = displ, y = hwy, colour = as.character(cyl))) +
-  scale_colour_manual(values = miffy()) +
-  theme_minimal()
-
-
-ggsave(filename = "bad_plot.png", height = 5, width = 5)
-
-
-# Set up a basic palette ----
-acme_palette <- function() {
-
-  acme_colour_length <- length(acme_colours())
-
-  function(n) {
-    stopifnot(n <= acme_colour_length)
-    return(acme_colours(1:n))
-  }
-}
-
-scale_colour_acme <- function(...) {
-  ggplot2::discrete_scale(
-    aesthetics = "colour",
-    scale_name = "acme",
-    palette = acme_palette(),
-    ...
-  )
-}
-
-
-# Example 2 ----
-# mpg plot using scale_colour_acme()
-ggplot(mpg) +
-  geom_point(aes(x = displ, y = hwy, colour = as.character(cyl))) +
-  scale_colour_acme() +
-  theme_minimal()
-
-ggsave(filename = "basic_palette.png", width = 5, height = 5)
-
-
-# Automatic palette ----
-acme_palette <- function() {
-  acme_colour_length <- length(acme_colours())
-
-  function(n) {
-    stopifnot(n <= acme_colour_length)
-
-    # Shortcut: if n = 1, we can just return the first colour
-    if (n == 1) {
-      return(acme_colours(1))
-    }
-
-    # Pick additional colours. Make them as spread out as possible
-    interval_between_picks <- acme_colour_length / n
-
-    additional_colour_indices <- 1 + (1:(n-1)) * interval_between_picks
-
-    # Work out which colours to return
-    colour_indices <- c(1, round(additional_colour_indices))
-
-    return(acme_colours(colour_indices))
-  }
-}
-
-# Example 3 ----
-# Plot with automatic palette
-ggplot(mpg) +
-  geom_point(aes(x = displ, y = hwy, colour = as.character(cyl))) +
-  scale_colour_acme() +
-  theme_minimal()
-
-ggsave(filename = "auto_palette.png", height = 5, width = 5)
-
-
-
-# Manual palette ----
-acme_palette <- function() {
-
-  acme_colour_length <- length(acme_colours())
-
-  function(n) {
-    stopifnot(n <= acme_colour_length)
-
-    colour_indices <-
-      if (n == 1) { "red" }
-    else if (n == 2) { c("red", "blue") }
-    else if (n == 3) { c("red", "green", "blue") }
-    else if (n == 4) { c("red", "green", "orange", "light_blue") }
-    # ... etc. etc.
-    else if (n == 8) {
-      c(
-        "red", "topaz", "orange", "light_blue",
-        "yellow", "dark_blue", "green", "purple"
-      )
-    }
-
-    return(acme_colours(colour_indices))
-  }
-}
-
-scale_fill_acme <- function(...) {
-  ggplot2::discrete_scale(
-    aesthetics = "fill",
-    scale_name = "acme",
-    palette = acme_palette(),
-    ...
-  )
-}
-
-# Example 4 ----
-# Plot with the manual palette
-
-ggplot(mpg) +
-  geom_point(aes(x = displ, y = hwy, colour = as.character(cyl))) +
-  scale_colour_acme() +
-  theme_minimal()
-
-ggsave(filename = "manual_palette.png", height = 5, width = 5)
-
-# 4a
-sales <- read.csv("sales.csv") %>%
-  gather("Product", "Sales", -Year)
-
-ggplot(sales) +
-  geom_col(aes(x = Year, y = Sales, fill = Product)) +
-  scale_fill_acme() +
-  coord_flip() +
-  theme_minimal()
-
-ggsave(filename = "manual_palette_bars.png", width = 5, height = 5)
-
-
-# Continuous sequential scales ----
-scale_colour_acme_c <- function(index = 1, colour_range = 0.75, ...) {
-  low_colour <- acme_colours(index)
-  high_colour <- colorspace::lighten(low_colour, amount = colour_range)
-
-  ggplot2::scale_colour_gradient(
-    low = low_colour,
-    high = high_colour,
-    ...
-  )
-}
-
-
-# Example 5 ----
-# Sequential palette plot
-ggplot(mpg) +
-  geom_point(aes(x = displ, y = hwy, colour = cty)) +
-  scale_colour_acme_c() +
-  theme_minimal()
-
-ggsave(filename = "sequential_palette.png", height = 5, width = 5)
-
-
-# Continuous diverging scales ----
-scale_colour_acme_div <- function(high_index = 1, low_index = 5, ...) {
-  high_colour <- acme_colours(high_index)
-  low_colour <- acme_colours(low_index)
-
-  ggplot2::scale_colour_gradient2(
-    low = low_colour,
-    high = high_colour,
-    ...
-  )
-}
-
-# Example 6 ----
-# Diverging palette plot
-
-toyota_cars_2008 <-
-  filter(mpg, manufacturer == "toyota", year == 2008)
-
-mean_hwy <- mean(toyota_cars_2008$hwy)
-
-ggplot(toyota_cars_2008) +
-  geom_vline(xintercept = mean_hwy, linetype = 2) +
-  geom_point(aes(y = model, x = hwy, colour = hwy)) +
-  scale_colour_acme_div(midpoint = mean_hwy) +
-  theme_minimal()
-
-ggsave(filename = "diverging_palette.png", height = 5, width = 5)
