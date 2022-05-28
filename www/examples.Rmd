@@ -9,9 +9,20 @@ output:
 ---
 <br>
 
+```{r}
+library(magrittr)     ## pipeline %>% shortcut with ctrl + alt + m
+library(tidyverse)
+library(ggplot2)      ## data visualization 
+library(png)          ## combining .png extension images
+
+devtools::load_all()
+```
+
+
 #### **Electricity boxes in the city center**
 Initiative of the city ambassador group Thirty030. Electricity boxes around the city have been transformed by 18 artists.
 ```{r}
+## Hex codes detected with the ginifab.com site
 binnenstad_patatjes4life_2021 <- c("#fc84e8", 
                                    "#be32bb", 
                                    "#c999bf", 
@@ -24,6 +35,33 @@ binnenstad_patatjes4life_2021 <- c("#fc84e8",
                                    "#33783a", 
                                    "#44553a", 
                                    "#457666")
+
+## Putting hex codes into a bar chart using the mpg dataset
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "patatjes4life")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: patatjes4life")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+pl2
+
+
+## combining the original image with the bar chart image
+
+
+
 ```
 
 #### **Phase contrast microscope mural in the Stroweg**
@@ -39,6 +77,28 @@ strosteeg_destrakkehand_2021 <- c("#182c4b",
                                   "#7d4e0d", 
                                   "#8da17e", 
                                   "#34512a")
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "microscope")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: microscope")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
+
 ```
 
 #### **Groceries mural above the Albert Heijn on Amsterdamsestraatweg 367**
@@ -52,6 +112,28 @@ amsterdamsestraatweg367_janisdeman_2021 <- c("#2f2332",
                                              "#7c923a", 
                                              "#596365", 
                                              "#fddd29")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "ah")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: ah")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Rainbow crosswalk at the Uithof, in front of the University of Applied Sciences**
@@ -69,6 +151,29 @@ uithof_hu_2021 <- c("ff0000",
                     "9ee09e", 
                     "#84674d", 
                     "#1870d5")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "hu")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: hu")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
+
 ```
 
 #### **Vogelenbuurt mural by Jan is de Man**
@@ -84,6 +189,28 @@ vogelenbuurt_janisdeman_2020 <- c("#016258",
                                   "#d15a3a", 
                                   "#043229", 
                                   "#5f1944")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "vogelenbuurt")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: vogelenbuurt")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Geese mural on the Gansstraat 64 by De Strakke Hand**
@@ -110,6 +237,28 @@ berlijnplein_leonkeer_2020 <- c("#91030e",
                                 "#48735a", 
                                 "#6a9098", 
                                 "#976557")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "organs")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: organs")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Mural on the Ibis Hotel on Bizetlaan by De Strakke Hand**
@@ -125,6 +274,28 @@ bizetlaan_destrakkehand_2019 <- c("603c14",
                                   "bfe6ff",
                                   "acdf87",
                                   "1a8693")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "ibis_hotel")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: ibis_hotel")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **The Wale at the Tivolivredenburg by Studio KCA**
@@ -137,6 +308,28 @@ tivolivredenburg_studiokca_2018 <- c("#021c95",
                                      "#6a9a8a", 
                                      "#efa548", 
                                      "#7b5d53")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "the_wale")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: the_wale")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **The Derk on Lauwerecht 55 by Derk Wessels and Jan is de Man**
@@ -152,6 +345,28 @@ lauwerecht55_derkwessels_2018 <- c("#673042",
                                    "#3094b2", 
                                    "#2f1f0d", 
                                    "#393842")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "derk_wessels")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: derk_wessels")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Miffy by Dick Bruna**
@@ -164,6 +379,28 @@ mariaplaats_destrakkehand_2017 <- c("#1B549A",
                                     "#914D23",
                                     "#DADADA",
                                     "#202221")
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "miffy")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: miffy")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Dichterswijk by Munir de Vries**
@@ -179,6 +416,29 @@ dichterswijk_munirdevries_2017 <- c("#0c454b",
                                     "#683e68",
                                     "#733d49",
                                     "#97554f")
+
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "poet_district")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: poet_district")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Trains at Meidoornstraat by De Verfdokter**
@@ -193,6 +453,29 @@ meidoornstraat_verfdokter_2015 <- c("#1b3318",
                                     "#1662a5",
                                     "#3c7cad",
                                     "#58a4d2")
+
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "trains")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: trains")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **De Wonderen/The Wonders on Langenoord by Boukje Lootsma**
@@ -210,6 +493,29 @@ langenoord_boukjelootsma_2014 <- c("#0e120c",
                                     "#626514",
                                     "#455c17",
                                     "#daae52")
+
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "the_wonders")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: the_wonders")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Ducdalf Met Schepen/ Ships with Ducdalf on Adelaarsstraat by Anne P. Boer**
@@ -227,6 +533,29 @@ adelaarsstraat_anneboer_1978 <- c("#c91f40",
                                   "#cc9f5c",
                                   "#70a3b7",
                                   "#97c7d6")
+
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "ships_with_ducdalf")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: ships_with_ducdalf")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 
 #### **Utrecht University on the Domplein**
@@ -237,5 +566,28 @@ domplein_uu <- c("#fac902",
                  "#653a15",
                  "#303810",
                  "#485c08")
+
+
+
+df <- mpg %>%
+  dplyr::group_by(manufacturer) %>%
+  dplyr::mutate(manufacturer = str_to_title(manufacturer))%>%
+  tally()
+
+df
+
+pl2 <- ggplot(data = df,aes(x= reorder(manufacturer, - n), y = n,fill = manufacturer))
+pl2 <- pl2 + geom_bar(stat = "identity")
+pl2 <- pl2 + geom_text(aes(label = n), size =  2, vjust = -0.3)
+pl2 <- pl2 + theme_classic() + scale_fill_rcolorUtrecht(palette = "uu")
+pl2 <- pl2 + labs(x = "Car Manufacturers", y= "Number of Models")
+pl2 <-pl2 + labs(title = "Palette: uu")
+pl2 <- pl2 + labs(subtitle = "Shown in descending order of  number of models")
+pl2 <- pl2 + labs(caption = "Data: mpg dataset ")
+pl2 <- pl2 + ggeasy::easy_rotate_labels(which = "x", angle = 90)
+pl2 <- pl2 + theme(legend.position ="none")
+
+
+pl2
 ```
 

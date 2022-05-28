@@ -11,14 +11,14 @@ rcolorUtrecht_pal(palette = "hu", alpha = 1, reverse = FALSE)
 
 \item{alpha}{transparency}
 
-\item{reverse}{If TRUE, the direction of the colours is reversed.}
+\item{reverse}{If FALSE, the direction of the colours is reversed.}
 }
 \description{
 dutchmasters palette with ramped colours
 }
 \examples{
 library(scales)
-show_col(rcolorUtrecht_pal("hu")(10))
+show_col(rcolorUtrecht_pal("hu")(12))
 
 filled.contour(volcano,color.palette = rcolorUtrecht_pal("miffy"), asp=1)
 

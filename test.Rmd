@@ -1,0 +1,43 @@
+---
+title: "test"
+author: "Cherin-Juliette"
+date: '2022-05-28'
+output: html_document
+---
+
+
+```{r}
+library(cowplot)
+library(ggplot2)
+library(magick)
+```
+
+![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-border-color.png){width=50%} ![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-clip.png){width=50%}
+
+```{r image_graph}
+
+y = "https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-clip.png"
+download.file(y,'y.jpg', mode = 'wb')
+
+library("jpeg")
+photo <- readJPEG("y.jpg",native=TRUE)
+
+library(ggplot2)
+library(cowplot)
+photo_panel <- ggdraw() + draw_image(photo, scale = 0.8)
+
+df <- data.frame(Years=rep(2016:2017, each=4),
+                 Quarters=rep(paste0("Q", 1:4), 2),
+                 Series1=seq(100, 800, 100))
+
+library(ggplot2)
+p1 <- ggplot(df) +
+  geom_point(aes(x=Quarters, y=Series1)) + 
+  facet_wrap( ~ Years, strip.position="bottom", scales="free_x") + 
+  theme(panel.spacing=unit(0, "lines"), 
+        strip.background=element_blank(), 
+        strip.placement="outside", 
+        aspect.ratio=1)  # set aspect ratio
+
+plot_grid(p1, photo_panel, ncol = 2)
+```

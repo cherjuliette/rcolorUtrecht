@@ -5,7 +5,7 @@
 \title{Setup fill palette for ggplot2}
 \usage{
 scale_fill_rcolorUtrecht(..., palette = "hu", discrete = TRUE,
-  alpha = 1, reverse = TRUE)
+  alpha = 1, reverse = FALSE)
 }
 \arguments{
 \item{...}{additional arguments to pass to scale_color_gradientn}
@@ -16,7 +16,7 @@ scale_fill_rcolorUtrecht(..., palette = "hu", discrete = TRUE,
 
 \item{alpha}{transparency}
 
-\item{reverse}{If TRUE, the direction of the colours is reversed.}
+\item{reverse}{If FALSE, the direction of the colours is reversed.}
 }
 \description{
 Setup fill palette for ggplot2

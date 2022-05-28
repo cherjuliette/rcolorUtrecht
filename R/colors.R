@@ -58,17 +58,18 @@
 rcolorUtrecht <- list(
   ## Hogeschool Utrecht (University of Applied Sciences)
   ## https://www.internationalhu.com/locations
-  hu = c("red"      = "#ff0000",
-         "blue1"    = "#1a9fd9",
-         "orange"   = "#ffa500", 
-         "yellow"   = "#ffff00", 
-         "green1"   = "#008000", 
-         "blue2"    = "#0000ff", 
-         "purple"   = "#4b0082",
+  hu = c("purple"   = "#4b0082",
          "pink1"    = "#ee82ee", 
          "pink2"    = "#cc99c9", 
          "green2"   = "#9ee09e", 
-         "brown"    = "#84674d"),
+         "blue2"    = "#1a9fd9",
+         "orange"   = "#ffa500",
+         "yellow"   = "#ffff00",
+         "green1"   = "#008000",
+         "blue3"    = "#0000ff",
+         "red"      = "#ff0000",
+         "blue1"    = "#1a9fd9"),
+  
   
   
   ## Phase Contraction Microscope (De Strakke Hand, 2021)
@@ -280,10 +281,10 @@ rcolorUtrecht <- list(
   
   ## Utrecht University
   ## https://www.uu.nl/en/organisation/corporate-identity/brand-policy/colour
-  uu = c("yellow"           = "#fac902",
-         "red"              = "#b70a28",
-         "black"            = "#030203",
-         "brown(building)"  = "#653a15",
+  uu = c("brown(building)"  = "#653a15",
          "green1(trees)"    = "#303810",
-         "green2(trees)"    = "#485c08")
+         "green2(trees)"    = "#485c08",
+         "black"            = "#030203",
+         "red"              = "#b70a28",
+         "yellow"           = "#fac902")
 )
