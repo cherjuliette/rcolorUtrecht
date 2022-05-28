@@ -114,17 +114,17 @@ berlijnplein_leonkeer_2020 <- c("#91030e",
 
 #### **Mural on the Ibis Hotel on Bizetlaan by De Strakke Hand**
 ```{r}
-burgermeesterreigerstraat_destrakkehand_2019 <- c("603c14",
-                                                  "9c2706",
-                                                  "d45b12",
-                                                  "#ac4649",
-                                                  "f4af28",
-                                                  "c17f29",
-                                                  "#185aa0",
-                                                  "b29804",
-                                                  "bfe6ff",
-                                                  "acdf87",
-                                                  "1a8693")
+bizetlaan_destrakkehand_2019 <- c("603c14",
+                                  "9c2706",
+                                  "d45b12",
+                                  "#ac4649",
+                                  "f4af28",
+                                  "c17f29",
+                                  "#185aa0",
+                                  "b29804",
+                                  "bfe6ff",
+                                  "acdf87",
+                                  "1a8693")
 ```
 
 #### **The Wale at the Tivolivredenburg by Studio KCA**
