@@ -10,7 +10,7 @@
 #' library(scales)
 #' show_col(rcolorUtrecht_pal("hu")(10))
 #'
-#' filled.contour(volcano,color.palette = rcolorUtrecht_pal("uu"), asp=1)
+#' filled.contour(volcano,color.palette = rcolorUtrecht_pal("hu"), asp=1)
 #'
 #' @export
 #'

@@ -39,7 +39,7 @@
 #' 
 #' De Wonderen/The Wonders by Boukje Lootsma
 #' 
-#' Treinstel Mat '36/Train set '36 by De Verfdokter [IG: @verfdokter]
+#' Treinstel Mat '36/Train set '36 by De Verfdokter [IG: verfdokter]
 #' 
 #' Boekenkast/Bookcase by Jan Is De Man
 #' 
@@ -58,16 +58,16 @@
 rcolorUtrecht <- list(
   ## Hogeschool Utrecht (University of Applied Sciences)
   ## https://www.internationalhu.com/locations
-  hu = c("red"      = "ff0000",
+  hu = c("red"      = "#ff0000",
          "blue1"    = "#1a9fd9",
-         "orange"   = "ffa500", 
-         "yellow"   = "ffff00", 
-         "green1"   = "008000", 
-         "blue2"    = "0000ff", 
-         "purple"   = "4b0082",
-         "pink1"    = "ee82ee", 
-         "pink2"    = "cc99c9", 
-         "green2"   = "9ee09e", 
+         "orange"   = "#ffa500", 
+         "yellow"   = "#ffff00", 
+         "green1"   = "#008000", 
+         "blue2"    = "#0000ff", 
+         "purple"   = "#4b0082",
+         "pink1"    = "#ee82ee", 
+         "pink2"    = "#cc99c9", 
+         "green2"   = "#9ee09e", 
          "brown"    = "#84674d"),
   
   
@@ -132,14 +132,14 @@ rcolorUtrecht <- list(
   
   ## Geese at the Gansstraat 64 (De Strakke Hand, 2020)
   ## https://www.oud-utrecht.nl/nieuws/666-route-langs-muurschilderingen
-  geese = c("blue1"           = "8cd3ff",
+  geese = c("blue1"           = "#8cd3ff",
             "blue2"           = "#009dff", 
             "brown1(earth)"   = "#454147", 
             "red(flowers)"    = "#7d0e20", 
             "green1(leaves)"  = "#393d20", 
             "green2(leaves)"  = "#7f883c", 
             "brown2(earth)"   = "#413014",
-            "yellow(flowers)" ="f9c70c"),
+            "yellow(flowers)" = "#f9c70c"),
   
   
   ## 3D street art at Berlijnplein (Leon Keer, 2020)
@@ -158,17 +158,17 @@ rcolorUtrecht <- list(
   
   ## Glimpse Of The Past (De Strakke Hand, 2019)
   ## https://www.duic.nl/algemeen/muurschildering-geeft-doorkijkje-naar-historisch-den-hommel/
-  ibis_hotel = c("brown(bridge)"    = "603c14",
-                 "red(sign)"        = "9c2706",
-                 "orange(bridge)"   = "d45b12",
+  ibis_hotel = c("brown(bridge)"    = "#603c14",
+                 "red(sign)"        = "#9c2706",
+                 "orange(bridge)"   = "#d45b12",
                  "pink(person)"     = "#ac4649",
-                 "yellow(leaves)"   = "f4af28",
-                 "orange(bridge)"   = "c17f29",
+                 "yellow(leaves)"   = "#f4af28",
+                 "orange(bridge)"   = "#c17f29",
                  "blue1(sky)"       = "#185aa0",
-                 "blue(water)"      = "b29804",
-                 "blue2(sky)"       = "bfe6ff",
-                 "green(grass)"     = "acdf87",
-                 "green(trees)"     = "1a8693"),
+                 "blue(water)"      = "#b29804",
+                 "blue2(sky)"       = "#bfe6ff",
+                 "green(grass)"     = "#acdf87",
+                 "green(trees)"     = "#1a8693"),
   
   
   
