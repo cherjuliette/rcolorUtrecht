@@ -6,7 +6,7 @@ output:
 
 The Dutch city Utrecht is one of the most beautiful places in the world, and a beacon of art and education, housing more than 21 universities and colleges and 400 art installations. With this package I transform street art found in Utrecht into color palettes which you can use for plots generated in R.
 
-![The Wall, Leidsche Rijn](./images/01_neude_.jpg) <br>
+![The Wall, Leidsche Rijn](./images/01_neude_.jpg){width=100%} <br>
 **The Wall, Leidsche Rijn**. *Photo from the [Greetings from utrecht website](https://greetingsfromutrecht.nl/en/street-art/)*
 
 ## How To Install
@@ -79,7 +79,7 @@ Officially known as The Skyscraper, this piece of art was made in 2018 as an ini
 ![](./images/2019_bizetlaan_destrakkehand.jpg){width=45%}
 ![](./images/rcolorUtrecht_ibishotel.png){width=50%}
 
-**Glimpse Into The Past** by [De Strakke Hand](https://www.destrakkehand.nl/).
+**Glimpse Into The Past at the Ibis Hotel at Bizetlaan** by [De Strakke Hand](https://www.destrakkehand.nl/).
 The painting above the Ibis Hotel shows a person peaking behind the curtains to see how the city looked in the past. A man on a horse is crossing the bridge, likely going to his house while several people are crossing the stream by boat. This painting also shows a role of maritime travel in Dutch history. <br>
 *Photo from the newspaper website AD*
 
@@ -102,6 +102,14 @@ Translated the name of this street is *The Geese street* which is why a mural of
 
 <br>
 
+![](./images/1978_adelaarsstraat_anneboer.jpg){width=45%}
+![](./images/rcolorUtrecht_shipswithducdalf.png){width=50%}
+
+**Ducdalf met Schepen/Ships with Ducdalf (1978).** by Anne P. Boer. In the Adelaarsstraat (translated Eagle street) stands the oldest street art in the city! Just as the mural at the Ibis Hotel shows, maritime traffic has contributed greatly to Dutch history and has extended itself today to water research at several institutes and universities. <br>
+*Photo from [Open Art Utrecht website](https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/schepen-met-ducdalf)*
+
+<br>
+
 ![](./images/2020_vogelenbuurt_janisdeman.jpg){width=35%}
 ![](./images/rcolorUtrecht_vogelenbuurt.png){width=50%}
 
@@ -115,14 +123,16 @@ Birds play a large part in the city and many streets are named after a particula
 ![](./images/rcolorUtrecht_ah.png){width=50%}
 
 **Mural above the grocery shop** by [Jan is De Man](https://www.instagram.com/janisdeman/?hl=en).
-Commissioned by one of the largest grocery shops in the country, the Albert Heijn (AH), a number of fruits and vegetables have been painted above the shop.
+Commissioned by one of the largest grocery shops in the country, the Albert Heijn (AH), a number of fruits and vegetables have been painted above the shop. <br>
+*Photo from the [Oud Utrecht website](https://www.oud-utrecht.nl/wat-doen-wij/publicaties/inspirerend-oud-utrecht/666-route-langs-muurschilderingen)*
 
 <br>
 
-![](./images/2021_binnenstad_patatjes4life.png){width=45%}
+![](./images/2021_binnenstad_patatjes4life.png){width=30%}
 ![](./images/rcolorUtrecht_patatjes4life.png){width=50%}
 
-**Electricity boxes in the city center** by [patatjes4life](https://www.instagram.com/accounts/login/?next=/patatjes4life/). Initiative of the city ambassador group Thirty030, electrical boxes in the city were painted to make them more cheerful.
+**Electricity boxes in the city center** by [patatjes4life](https://www.instagram.com/accounts/login/?next=/patatjes4life/). Initiative of the city ambassador group Thirty030, electrical boxes in the city were painted to make them more cheerful. <br>
+*Photo from the [thirty030 website](https://thirty030.nl/vankastjenaarcanvasje-3/)*
 
 <br>
 
