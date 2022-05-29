@@ -20,13 +20,6 @@ library(rcolorUtrecht)
 
 ## How To Use
 
-```{r, include=FALSE}
-library(magrittr)       ## pipeline %>%
-library(ggplot2)        ## data visualization with graphs
-library(dplyr)          ## filtering values
-library(rcolorUtrecht)  ## color palette
-```
-
 ```{r example, full.width=TRUE}
 diamonds %>% 
   filter(cut == c("Very Good", "Premium", "Ideal")) %>% 
