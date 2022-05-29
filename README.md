@@ -47,7 +47,7 @@ diamonds %>%
 
 <br>
 
-![](./images/2014_langenoord_ boukjelootsma.jpg){width=25%}
+![](./images/2014_langenoord_boukjelootsma.jpg){width=25%}
 ![](./images/rcolorUtrecht_thewonders.png){width=25%}
 
 **De Wonderen/The Wonders *(2014)* by Germa Borst**
