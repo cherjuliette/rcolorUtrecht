@@ -10,34 +10,30 @@ output: html_document
 library(cowplot)
 library(ggplot2)
 library(magick)
+
+getwd()
 ```
 
-![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-border-color.png){width=50%} ![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-clip.png){width=50%}
+![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-border-color.png){width=30%} ![](https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-clip.png){width=30%}
 
-```{r image_graph}
+![](./images/2020_vogelenbuurt_janisdeman.jpg){width=30%}
+![](./images/rcolorUtrecht_vogelenbuurt.png){width=50%}
 
-y = "https://r-charts.com/en/part-whole/voronoi-diagram_files/figure-html/voronoi-diagram-clip.png"
-download.file(y,'y.jpg', mode = 'wb')
 
-library("jpeg")
-photo <- readJPEG("y.jpg",native=TRUE)
+```{r fig.width=4, fig.height=6, fig.fullwidth=TRUE}
 
+knitr::include_graphics(c("./images/2020_vogelenbuurt_janisdeman.jpg",
+                          "./images/rcolorUtrecht_vogelenbuurt.png"))
+```
+
+```{r, fig.fullwidth=TRUE}
+knitr::include_graphics("./images/rcolorUtrecht_vogelenbuurt.png")
+```
+
+
+
+
+```{r, fig.width=30, fig.height=30, fig.fullwidth=TRUE}
 library(ggplot2)
-library(cowplot)
-photo_panel <- ggdraw() + draw_image(photo, scale = 0.8)
-
-df <- data.frame(Years=rep(2016:2017, each=4),
-                 Quarters=rep(paste0("Q", 1:4), 2),
-                 Series1=seq(100, 800, 100))
-
-library(ggplot2)
-p1 <- ggplot(df) +
-  geom_point(aes(x=Quarters, y=Series1)) + 
-  facet_wrap( ~ Years, strip.position="bottom", scales="free_x") + 
-  theme(panel.spacing=unit(0, "lines"), 
-        strip.background=element_blank(), 
-        strip.placement="outside", 
-        aspect.ratio=1)  # set aspect ratio
-
-plot_grid(p1, photo_panel, ncol = 2)
+ggplot(diamonds) + geom_point(aes(carat, price, color=color))
 ```
