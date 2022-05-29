@@ -17,6 +17,11 @@ library(rcolorUtrecht)
 ## How To Use
 
 ```{r example, full.width=TRUE}
+library(magrittr)       ## pipeline %>%
+library(dplyr)          ## filter function
+library(ggplot2)        ## data visualization with graphs
+library(rcolorUtrecht)  ## color palette
+
 diamonds %>% 
   filter(cut == c("Very Good", "Premium", "Ideal")) %>% 
   ggplot(aes(x = carat,
