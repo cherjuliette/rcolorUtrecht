@@ -21,3 +21,18 @@ library(rcolorUtrecht)
 Introduction to the rcolorUtrecht package.
 
 This package offers color palettes derived from 16 street arts.
+
+Use as such:
+```{r, full.width=TRUE}
+diamonds %>% 
+  filter(cut == c("Very Good", "Premium", "Ideal")) %>% 
+  ggplot(aes(x = carat,
+             y = price,
+             color = cut)) +
+  geom_point(aes(size = cut,
+                 alpha = 0.5)) +
+  facet_wrap(~cut) +
+  theme_bw()+
+  scale_color_rcolorUtrecht(palette = "miffy")
+```
+
