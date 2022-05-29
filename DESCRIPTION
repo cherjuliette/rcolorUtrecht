@@ -3,7 +3,7 @@ Type: Package
 Title: Colour Palettes from street art in Utrecht
 Version: 0.1.0
 Author: Cherin-Juliette
-Maintainer: Cherin-Juliette <>
+Maintainer: Cherin-Juliette <cherin.mohamed@student.hu.nl>
 Description: From street art in Dutch city Utrecht color palettes were derived. Inspired by the dutchmasters package.
 Imports: ggplot2, grDevices, graphics
 License: MIT + file LICENSE
