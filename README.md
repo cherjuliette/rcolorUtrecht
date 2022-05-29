@@ -31,7 +31,7 @@ diamonds %>%
                  alpha = 0.5)) +
   facet_wrap(~cut) +
   theme_bw()+
-  scale_color_rcolorUtrecht(palette = "miffy")
+  scale_color_rcolorUtrecht(palette = "the_wonders")
 ```
 
 <br>
