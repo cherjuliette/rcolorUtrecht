@@ -1,0 +1,23 @@
+---
+title: "Color palette of streetart in Utrecht"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Color palette of streetart in Utrecht}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rcolorUtrecht)
+```
+
+Introduction to the rcolorUtrecht package.
+
+This package offers color palettes derived from 16 street arts.
