@@ -2,7 +2,7 @@
 
 The Dutch city Utrecht is one of the most beautiful places in the world, and a beacon of art and education, housing more than 21 universities and colleges and 400 art installations. With this package I transform street art found in Utrecht into color palettes which you can use for plots generated in R. *Inspired by the {dutchmasters} package by [EdwinTh](https://github.com/EdwinTh/dutchmasters)*
 
-![The Wall, Leidsche Rijn](./images/01_neude_.jpg){width=100%} <br>
+![The Wall, Leidsche Rijn](./images/01_neude_.jpg) <br>
 **The Wall, Leidsche Rijn**. *Photo from the [Greetings from utrecht website](https://greetingsfromutrecht.nl/en/street-art/)*
 
 ## How To Install
