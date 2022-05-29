@@ -1,6 +1,6 @@
 ---
 output:
-  _github_document
+  github_document
 ---
 # Utrecht City Color Palette
 
