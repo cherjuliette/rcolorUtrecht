@@ -1,24 +1,48 @@
 ---
 output:
-  html_document
+  github_document
 ---
 # Utrecht City Color Palette
 
-The Dutch city Utrecht is one of the most beautiful places in the world, and a beacon of art and education, housing more than 21 universities and colleges and 400 art installations. With this package I transform street art found in Utrecht into color palettes which you can use for plots generated in R.
+The Dutch city Utrecht is one of the most beautiful places in the world, and a beacon of art and education, housing more than 21 universities and colleges and 400 art installations. With this package I transform street art found in Utrecht into color palettes which you can use for plots generated in R. *Inspired by the {dutchmasters} package by [EdwinTh](https://github.com/EdwinTh/dutchmasters)*
 
 ![The Wall, Leidsche Rijn](./images/01_neude_.jpg){width=100%} <br>
 **The Wall, Leidsche Rijn**. *Photo from the [Greetings from utrecht website](https://greetingsfromutrecht.nl/en/street-art/)*
 
 ## How To Install
 
-* Coming Soon
+```{r eval=FALSE, include=TRUE}
+devtools::install_github("cherjuliette/rcolorUtrecht")
+library(rcolorUtrecht)
+```
 
+<br>
 
 ## How To Use
 
-* Coming Soon
+```{r, include=FALSE}
+library(magrittr)       ## pipeline %>%
+library(ggplot2)        ## data visualization with graphs
+library(dplyr)          ## filtering values
+library(rcolorUtrecht)  ## color palette
+```
 
-## Examples
+```{r example, full.width=TRUE}
+diamonds %>% 
+  filter(cut == c("Very Good", "Premium", "Ideal")) %>% 
+  ggplot(aes(x = carat,
+             y = price,
+             color = cut)) +
+  geom_point(aes(size = cut,
+                 alpha = 0.5)) +
+  facet_wrap(~cut) +
+  theme_bw()+
+  scale_color_rcolorUtrecht(palette = "miffy")
+```
+
+<br>
+
+## Palettes
 *Graph code found in ./www/examples.Rmd*
 
 <br>
