@@ -2,9 +2,9 @@
 % Please edit documentation in R/scales.R
 \name{rcolorUtrecht_pal}
 \alias{rcolorUtrecht_pal}
-\title{dutchmasters palette with ramped colours}
+\title{rcolorUtrecht palette with ramped colours}
 \usage{
-rcolorUtrecht_pal(palette = "hu", alpha = 1, reverse = FALSE)
+rcolorUtrecht_pal(palette = "miffy", alpha = 1, reverse = FALSE)
 }
 \arguments{
 \item{palette}{Choose from 'rcolorUtrecht_palettes' list}
@@ -14,7 +14,7 @@ rcolorUtrecht_pal(palette = "hu", alpha = 1, reverse = FALSE)
 \item{reverse}{If FALSE, the direction of the colours is reversed.}
 }
 \description{
-dutchmasters palette with ramped colours
+rcolorUtrecht palette with ramped colours
 }
 \examples{
 library(scales)
